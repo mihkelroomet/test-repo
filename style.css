@@ -1,15 +1,12 @@
 body {
 	background-color: whitesmoke;
+	font-family: "Courier New", "Courier", monospace;
 }
 
 h1 {
 	color: blueviolet;
 	font-size: 6vw;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-
-p, li, h2, table {
-	font-family: "Courier New", "Courier", monospace;
 }
 
 p, li {
