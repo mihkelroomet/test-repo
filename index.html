@@ -3,19 +3,20 @@
 <head>
 	<meta charset='UTF-8'>
 	<title>HTML Ülesanne</title>
+	<link rel='stylesheet' href='style.css'>
 </head>
 
-<body style='background-color: whitesmoke;'>
+<body>
 
-<div style='height: 100%; width: 50%; position: fixed; z-index: 1; top: 0; left: 0; overflow-x: hidden; padding-top: 25px;'>
-	<h1 style='color: blueviolet; font-size: 7vw; font-family: "Comic Sans MS", "Comic Sans", cursive;'>Informatsioon</h1>
-	<p style='color: darkorange; font-size: 13px; font-family: "Courier New", "Courier", monospace;'>Siin lehel on kasulikku informatsiooni. See informatsioon on väga kasulik.</p><br>
-	<p style='color: darkorange; font-size: 13px; font-family: "Courier New", "Courier", monospace;'><a href='https://google.com' target='_blank'>Siit</a> saab lisaks lugeda.</p>
-	<p style='color: darkorange; font-size: 13px; font-family: "Courier New", "Courier", monospace;'>Illustratsioon sellest olulisest informatsioonist:</p>
-	<img style='max-width: 37%; border: double; border-width: 10px;' src='info.png' alt='informatiivne pilt'>
+<div class='split left'>
+	<h1>Informatsioon</h1>
+	<p>Siin lehel on kasulikku informatsiooni. See informatsioon on väga kasulik.</p><br>
+	<p><a href='https://google.com' target='_blank'>Siit</a> saab lisaks lugeda.</p>
+	<p>Illustratsioon sellest olulisest informatsioonist:</p>
+	<img id='info-img' src='info.png' alt='informatiivne pilt'>
 </div>
 
-<div style='height: 100%; width: 50%; position: fixed; z-index: 1; top: 0; right: 0; overflow-x: hidden; padding-top: 25px;'>
+<div class='split right'>
 	<h2>Loeme kokku lambad</h2>
 	<ul>
 		<li>Adolf</li>
@@ -26,9 +27,13 @@
 
 	<a href='kelder.html'>Kuku keldrisse?</a>
 
+	<h2>Ül 2 küsimus 1</h2>
 	<p>Teksti saab jagada kaheks kahe div-iga, millel erinevad positsiooni mõjutavad stiiliatribuudid.</p>
 	<p>Näiteks saab seada tulbad 100% pikkusesse ja 50% laiusesse ja siis kleepida kumbki kummagi ekraani poole külge.</p>
 	<p>Võib ka näiteks seada 2 divi ühe teise divi lastena position:relative ja float abil katma vastavalt ekraani vasakut ja paremat poolt.</p>
+
+	<h2>Ül 3 küsimus 1</h2>
+	<p><i>Inline style</i>'i on keeruline muuta. CSS-faili puhul on kõik stiiliinfo koondatud ühte kohta ning jaotatud koherentse loogilise struktuuri kohaselt ja ühesuguste elementide stiili ning ka eri elementide ühtivaid stiilivalikuid saab muuta korraga.</p>
 </div>
 
 

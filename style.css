@@ -1,0 +1,55 @@
+body {
+	background-color: whitesmoke;
+}
+
+h1 {
+	color: blueviolet;
+	font-size: 6vw;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+p, li, h2, table {
+	font-family: "Courier New", "Courier", monospace;
+}
+
+p, li {
+	color: rgb(160, 74, 4);
+	font-size: 13px;
+}
+
+table, th, td {
+	color: rgb(23, 77, 109);
+	border: 2px solid lightslategray;
+}
+
+th {
+	font-size: 18px;
+}
+
+td {
+	font-size: 15px;
+}
+
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding: 25px;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	right: 0;
+}
+
+#info-img {
+	max-width: 58%;
+	border: double;
+	border-width: 10px;
+}
